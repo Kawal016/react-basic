@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.travelHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #F55A5A;
+    gap: 10px;
+    padding: 10px 0;
+}
+.travel1Img{
+    width: 16px;
+}
+.travelHeading{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter;
+    color: white;
+}
+.article1{
+    display: flex;  
+    gap: 20px; 
+    justify-content: center;
+    margin:50px 0;
+}
+.ImagePart1{
+    width:125px;
+    height:168px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.travel3img{
+    width: 7px;
+}
+.ImagePart2{
+   width:50%; 
+   margin-top: 20px;
+}
+.travel2img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.countrytext{
+    margin:10px 10px;
+}
+.countryHead{
+  margin-top: 6px;
+}
+.paraDate{
+    margin-top: 10px;
+    font-weight: 800;
+}
+.paraContent{
+    margin-top: 6px;
+}
