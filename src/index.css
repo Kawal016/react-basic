@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+
+.nav{
+ position: relative;
+ background-color: cadetblue;
+}
+.nav-img
+{
+  width: 50px;
+}
+.nav-span
+{
+    color: aqua;
+    font-size: 30px;
+    position: absolute;
+    top: 4px;
+    margin-left: 10px;
+    font-weight: 600;
+} 
+.main{
+  margin: 20px 10px;
+}
+.head1
+{
+  font-size: 40px;
+}
