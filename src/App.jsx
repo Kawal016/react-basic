@@ -1,8 +1,9 @@
 // import TravelHeader from "./components/travelHeader";
 // import TravelEntry from "./components/travelEntry";
 // import travelData from "./components/travelData";
-import ChefHeader from "./components/chefHeader";
-import ChefContent from "./components/chefContent";
+// import ChefHeader from "./components/chefHeader";
+// import ChefContent from "./components/chefContent";
+import Main from './components/memoCreate';
 export default function App()
 { 
   // const travel=travelData.map((data)=>{
@@ -11,12 +12,15 @@ export default function App()
 
     return(
         <>
+        {/* Basics Practice of React */}
         {/* <TravelHeader />
         <div>
         {travel}
         </div> */}
-        <ChefHeader />
-        <ChefContent />
+        {/* <ChefHeader />
+        <ChefContent /> */}
+        {/* <Main /> */}
+
         </>
     )
 }
