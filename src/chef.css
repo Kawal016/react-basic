@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter,sans-serif;
+    background-color: #FAFAF8;
+}
+.chefHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px 0;
+}
+.chefImage{
+    width: 40px;
+}
+.ingredientsForm{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+.chefInput{
+    padding: 5px 8px;
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 300px;
+}
+.chefAddButton{
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+     font-family: Inter,sans-serif;
+     color: #FAFAF8;
+}
+.getRecipeConatiner{
+    display: flex;
+    flex-direction:row;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 159, 159);
+    width: 50%;
+    padding:20px 50px;
+    margin-top: 20px;
+}
+.hand{
+    margin-left:50px;
+    font-size: 30px;
+}
+.listIngredients li{
+    margin-left:60px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.recipeButton{
+    padding:5px 10px;
+    width: 40%;
+    background-color: rgb(240, 107, 107);
+}

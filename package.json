@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.13.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
     "get-google-fonts": "^1.2.2",
+    "node": "^25.2.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
