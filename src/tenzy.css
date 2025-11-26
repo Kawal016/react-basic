@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #0B2434;
+    padding: 20;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div#root{
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+}
+main{
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.diceConatoner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:20px;
+}
+.diceConatoner button{
+   height: 40px;
+   width: 40px;
+   border-radius: 10px;
+   border:none;
+   font-size: 1.75rem;
+   background-color: red;
+   cursor: pointer;
+   /* font-weight: bold; */
+}
+
+.buttons{
+    background-color:green;
+}
+.rollButton{
+   padding:8px 15px;
+   margin-top: 30px;
+   background-color: blue;
+   color: white;
+}

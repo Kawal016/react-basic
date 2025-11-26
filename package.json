@@ -17,6 +17,7 @@
     "get-google-fonts": "^1.2.2",
     "node": "^25.2.1",
     "react": "^19.1.1",
+    "react-confetti": "^6.4.0",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {

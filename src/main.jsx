@@ -1,7 +1,8 @@
 import {createRoot} from "react-dom/client";
 // import "./index.css";
 // import "./travel.css";
-import "./chef.css";
+// import "./chef.css";
+import "./Tenzy.css"
 import App from "./App";
 createRoot(document.getElementById("root")).render(
    <App />

@@ -3,7 +3,8 @@
 // import travelData from "./components/travelData";
 // import ChefHeader from "./components/chefHeader";
 // import ChefContent from "./components/chefContent";
-import Main from './components/memoCreate';
+// import Main from './components/memoCreate';
+import Tenzy from "./Tenzy"
 export default function App()
 { 
   // const travel=travelData.map((data)=>{
@@ -20,7 +21,7 @@ export default function App()
         {/* <ChefHeader />
         <ChefContent /> */}
         {/* <Main /> */}
-
+         <Tenzy />
         </>
     )
 }
