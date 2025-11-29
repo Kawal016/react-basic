@@ -4,7 +4,7 @@
 // import ChefHeader from "./components/chefHeader";
 // import ChefContent from "./components/chefContent";
 // import Main from './components/memoCreate';
-import Tenzy from "./Tenzy"
+// import Tenzy from "./Tenzy"
 export default function App()
 { 
   // const travel=travelData.map((data)=>{
@@ -14,14 +14,19 @@ export default function App()
     return(
         <>
         {/* Basics Practice of React */}
+        {/* Travel Vlog */}
         {/* <TravelHeader />
         <div>
         {travel}
         </div> */}
+        {/* Chef Racipe */}
         {/* <ChefHeader />
         <ChefContent /> */}
+        {/* Memo Craete */}
         {/* <Main /> */}
-         <Tenzy />
+
+        {/* Project 1 */}
+         {/* <Tenzy /> */}
         </>
     )
 }
